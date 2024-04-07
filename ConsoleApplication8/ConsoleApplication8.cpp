@@ -99,7 +99,7 @@ void client(Divace* divace, IPrint* Iprint)
 
 int main()
 {
-    Divace* div = new VideoCard("Nvidia RTX 3080"); 
+    Divace* div = new VideoCard("Nvidia RTX 3080");     
     IPrint* pnt = new GameePc();  
     client(div, pnt);
     delete div; 
